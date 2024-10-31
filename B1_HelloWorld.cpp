@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
 	//in ra man hinh
@@ -23,6 +24,12 @@ int main(){
 	double diemVan = 7.5;
 	//IN RA MAN HINH diemToan & diemVan trong cung 1 dong print
 	printf("Tuoi: %d \n", tuoi);
-	printf("Diem Toan= %lf - Van = %lf",diemToan, diemVan);
+	printf("Diem Toan= %0.1lf - Van = %0.2lf",diemToan, diemVan);//%lf chu l
+	
+	char bac = 'A';
+	printf("Bac: %c", bac);
+	bool gioiTinh = 1;
+	gioiTinh =0 ;
+	printf("Gioi tinh %d", gioiTinh);
 	return 0;
 }
