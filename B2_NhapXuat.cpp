@@ -9,15 +9,20 @@ int main(){
 	//Nhap so luong va gioi tinh NYC cua ban sau do in ra man hinh
 	//B1: KHAI BAO BIEN
 	int soLuong;
+	float chieuCao;
 	char gioiTinh; //F hoac M
 	//B2: NHAP GIA TRI TU BAN PHIM
 	printf("Moi ban nhap so luong NYC: ");
 	scanf("%d", &soLuong);
+	fflush(stdin);//xoa bo dem
+	printf("Moi ban nhap chieu cao NYC: ");
+	scanf("%f", &chieuCao);
 	getchar(); //tranh troi lenh -> xoa ky tu thua con lai
 	printf("Moi ban nhap gioi tinh NYC (F/M): ");
 	scanf("%c", &gioiTinh); 
 	//B3: IN RA MAN HINH
 	printf("So luong NYC la= %d \n", soLuong);
+	printf("Chieu cao NYC la= %.2f m\n", chieuCao);
 	printf("Gioi tinh NYC la= %c \n", gioiTinh);
 	return 0;
 }
