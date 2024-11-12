@@ -49,4 +49,4 @@ Sau đó, phân loại tình trạng sức khỏe dựa trên chỉ số BMI:
 	- BMI >= 30: Béo phì
 	*BÀI 4: Nhập vào ba số nguyên dương a, b, c đại diện cho ba cạnh của một tam giác.
 Kiểm tra xem ba cạnh này có tạo thành một tam giác hợp lệ hay không.
-Xuất ra thông báo xác nhận nếu ba cạnh tạo thành một tam giác hoặc không phải tam giác.
+Xuất ra thông báo xác nhận nếu ba cạnh tạo thành một tam giác hoặc không phải tam giác.9
