@@ -107,7 +107,7 @@ Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã s�
  	* Đặt trước toán hạng
  	* Vídụ: ++x hay --x: thực hiện tăng/giảm trước.
  	* Đặt sau toán hạng
- 	* Vídụ: x++ hay x--: thực hiện tăng/giảm sau.
+ 	* Vídụ: ++ hay x--: thực hiện tăng/giảm sau.
 
 	* 2. Toán tử so sánh: > < >= <= == !=
 		- > < : lớn hơn/ nhỏ hơn
@@ -137,7 +137,7 @@ Yêu cầu: Viết chương trình yêu cầu người dùng nhập vào mã s�
 	- Phần dư của phép chia.
 Yêu cầu: In ra kết quả của từng phép tính.
 
-* Bài tập 2: Toán tử quan hệ
+* Bài tập 2: Toán tử so sánh
 Đề bài: Viết chương trình nhập vào hai số nguyên từ bàn phím và kiểm tra xem:
 	- Số thứ nhất có lớn hơn số thứ hai không.
 	- Số thứ nhất có nhỏ hơn số thứ hai không.
@@ -163,7 +163,6 @@ Yêu cầu: In ra kết quả sau mỗi phép gán.
 	- In giá trị của số đó trước và sau khi sử dụng toán tử tăng (++) ở vị trí trước (++a)và sau (a++).
 Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trước và sau.
 */
-
 ------------------------BUỔI 4: CẤU TRÚC RẼ NHÁNH-----------------------------
 /*
 	* 1. CẤU TRÚC IF
@@ -187,18 +186,7 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
 	*			//thực hiện công việc n
 	*	}
 	*/
-	//switch-case
-	/*
-	* switch (<input>){
-	*		case <giá trị 1>:
-	*			//thực hiện công việc
-	*			//break; => thoát khỏi switch-case
-	*		case ...
-	*		default:
-	*			//thực hiện cv=> nếu ko đúng các case trên
-	* }
-	*/
-	/*Bài tập trên lớp
+	/*Bài tập 
 	* Bài 1: Nhập 1 số nguyên từ bàn phím sau đó kiểm tra số đó là số nguyên dương hay nguyên âm.
 	* Bài 2: Xây dung chương trình nhập vào 1 số nguyên và kiểm tra tính chẵn lẻ của số nguyên đó
 	* Bài 3: Xây dựng chương trình tính học lực của sinh viên theo điểm trung bình
@@ -213,26 +201,19 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
  		+ Ngượclại: kém
  	  - Output: hiển thị học lực của sinh viên
 	*/
-	/** BTVN
-	* Bài tập 1: Kiểm tra số tiền của bạn
-	Viết chương trình yêu cầu người dùng nhập số tiền (số thực), sau đó kiểm tra và in ra thông báo :
-		- Nếu số tiền >30 (triệu): thông báo "mua Iphone 16"
-		- Ngược lại: thông báo "hết tiền"
-
-	* Bài tập 2: So sánh ba số
-	Viết chương trình nhận ba số nguyên từ người dùng và sử dụng cấu trúc if-else-if để xác định số lớn nhất trong ba số này.
-
-	* Bài tập 3: Kiểm tra độ tuổi
-	Viết chương trình yêu cầu người dùng nhập tuổi của họ. Nếu tuổi dưới 18, in ra "Vị thành niên"; từ 18 đến 60 in ra "Người lớn"; và trên 60 thì in ra "Người cao tuổi".
-
-
-	* Bài tập 4: Tính tiền điện
-	Viết chương trình yêu cầu người dùng nhập số điện đã tiêu thụ (kWh). Dựa vào số điện tiêu thụ, tính tiền điện theo quy định sau:
-
-	- Dưới 50 kWh: 1.500 đồng/kWh
-	- Từ 50 đến 100 kWh: 2.000 đồng/kWh
-	- Trên 100 kWh: 3.000 đồng/kWh
-
+------------------------BUỔI 5: SWITCH CASE-----------------------------
+	/*
+	* switch (<input>){
+	*		case <giá trị 1>:
+	*			//thực hiện công việc
+	*			//break; => thoát khỏi switch-case
+	*		case ...
+	*		default:
+	*			//thực hiện cv=> nếu ko đúng các case trên
+	* }
+	*/
+	
+	/** BTVN: Làm đề luyện tap 1
 
 	*/
 ------------------------BUỔI 7: VÒNG LẶP-----------------------------
@@ -267,11 +248,74 @@ Yêu cầu: Quan sát sự khác biệt khi sử dụng toán tử tăng trướ
 	* BÀI 5: Nhập vào 1 số nguyên dương từ bàn phím, chỉ cho phép nhập số từ 0-10. nếu sai yêu cầu nhập lại. Yêu cầu thực hiện ít nhat 1 lần.
 	* BÀI 6: Tạo menu switch case có sử dung vòng lặp cho 5 bài trên.
 */
-----------------
 /* BTVN : Tạo menu cho bài dưới đây. Sử dung switch case có kết hợp vòng lặp
 	* Bài 1: Tính tổng các số từ 1 đến n: Nhập vào một số nguyên dương n, dùng vòng lặp for để tính và in ra tổng các số từ 1 đến n.
 	* Bài 2: In các số chẵn trong khoảng từ 1 đến n: Nhập vào số nguyên dương n, sử dụng vòng lặp for hoặc while để in ra các số chẵn từ 1 đến n.
 	* Bài 3:Nhập tuổi từ bàn phím, tuổi yêu cầu từ 18 - 50 nếu sai yêu cầu nhập lại. Thực hiện it nhất 1 lần. Sử dung do-while
 	* Bài 4: Tính tổng các chữ số của một số nguyên dương: Nhập vào một số nguyên dương n, dùng vòng lặp do-while để tính và in ra tổng các chữ số của n.
+
+*/
+
+------------------------BUỔI 11: HÀM-----------------------------
+- Hàm là một đoạn chương trình có tên, đầu vào và đầu ra.
+- Hàm được gọi nhiều lần với các tham số khác nhau.
+- Hàm được sử dụng khi có nhu cầu:
+	+ Tái sử dụng.
+ 	+ Sửa lỗi và cải tiến.
+- Có 4 loại hàm cơ bản:
+	1. HÀM KHÔNG TRẢ VỀ, KHÔNG THAM SỐ TRUYỀN VÀO
+		void <tên hàm> (){
+			//code trong hàm
+		}
+	2. HÀM KHÔNG TRẢ VỀ, CÓ THAM SỐ TRUYỀN VÀO
+		void <tên hàm> ([danh sách tham số]){
+			//code trong hàm
+		}
+	3. HÀM TRẢ VỀ, KHÔNG THAM SỐ TRUYỀN VÀO
+		<kiểu dữ liệu hàm trả về> <tên hàm> (){
+			//code trong hàm
+			return <giá trị>;
+		}
+	4. HÀM TRẢ VỀ, CÓ THAM SỐ TRUYỀN VÀO
+		<kiểu dữ liệu hàm trả về> <tên hàm> ([danh sách tham số]){
+			//code trong hàm
+			return <giá trị>;
+		}
+- Hàm định nghĩa sẵn -> Khai báo thư viện math.h
+	+ pow(a, n): Tính a^n (a lũy thừa n)
+ 	+ sqrt(a)  : Tính căn bậc 2 của a
+ 	+ abs(a)   : Lấy giá trị tuyệt đối của a
+ 	+ ceil(a)  : Lấy số nguyên trên của a //hàm trần
+ 	+ floor(a) : Lấy số nguyên dưới của  //hàm sàn
+  Ví dụ
+
+ x=Math.pow(5, 3) => x=75
+ x=Math.sqrt(16) => x=4
+ x=Math.abs(-5) => x=5
+ x=Math.ceil(3.5) => x=4
+ x=Math.floor(3.5) => x=3
+ 
+/* BÀI TẬP
+	* Bài 1: Tạo hàm không trả về, không tham số truyền vào, thực hiện tính tổng các số chẵn từ a đến b với a,b là số nguyên dương nhập từ bàn phím
+	* Bài 2: Tạo hàm không trả về, có tham số truyền vào, thực hiện tính giai thừa của 1 số biết: 
+	n!=1×2×3×...×n,  với n≥1
+	0! = 1
+	* Bài 3: Tạo hàm có trả về, không tham số truyền vào, thực hiện chương trình: nhập vào số giờ (float) và bậc lương (float), sau đó tính lương của nhân viên theo công thức: lương =  số giờ * bậc lương.
+	* Bài 4: Tạo hàm có trả về, có tham số truyền vào, thực hiện chương trình: nhập 1 số nguyên dương x tính tổng các số chia hết cho 3 hoặc 5 trong khoang tu 1-> x
+
+*/
+
+------------------------BUỔI 12: MẢNG-----------------------------
+- Mảng là tập hợp các phần tử cùng kiểu dữ liệu.
+- Mảng có số lượng phần tử cố định và được cấp phát vùng nhớ liên tục.
+- Truy xuất các phần tử mảng bằng chỉ số, bắt đầu là 0
+- Cú pháp: <kiểu dữ liệu> <tên biến mảng> [<số lượng phần tử mảng>]
+
+/* BÀI TẬP
+	* Bài 1: Khởi tạo 1 mảng có sẵn 6 phần tử: 3 8 1 2 9 6. Sau đó cập nhật giá trị phần tử đầu tiên = 10. in toàn bộ phần tử ra màn hình
+	* Bài 2: Nhập số lượng sinh viên, sau đó nhập mảng cân nặng của các Sinh viên đó từ bàn phím và in kết quả ra màn hình
+	* Bài 3: Nhập số lượng latop , sau đó nhập mảng giá tiền (float) của các laptop đó từ bàn phím và in kết quả ra màn hình
+	* Bài 4: Nhập số lượng phòng học , sau đó nhập mảng diện tích (double)của các phòng đó từ bàn phím và in kết quả ra màn hình
+	* Bài 5: Nhập số lượng xe máy , sau đó nhập mảng phân khối (int)của các xe máy đó từ bàn phím và in kết quả ra màn hình
 
 */
