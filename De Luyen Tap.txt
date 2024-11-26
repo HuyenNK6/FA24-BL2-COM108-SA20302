@@ -93,7 +93,7 @@ Menu in ra như sau(sự lựa chọn được lặp lại đến khi chọn 0):
 Mời chọn: 
 Lưu ý: Tạo hàm cho từng bài và gọi hàm trong switch-case
 
-* Bài 1. Nhập n số lượng SV, sau đó yêu cầu Nhập 1 mảng Tuổi (int) của các nhân viên và xuất mảng ra màn hình.
+* Bài 1. Nhập n số lượng SV, sau đó yêu cầu Nhập 1 mảng Tuổi (int) của các sinh viên và xuất mảng ra màn hình.
 Thực hiện tính tổng các phần tử ở vị trí lẻ.
 * Bài 2. Nhập n số lượng Nhân viên, sau đó yêu cầu Nhập 1 mảng giờ làm (float) của các nhân viên và xuất mảng ra màn hình.
 Thực hiện Tính lương của Nhân viên tại vị trí chẵn theo công thức: lương = giờ làm * 150000.
