@@ -35,10 +35,61 @@ void bai2(){
 //////////////////////
 void bai3(){
 	printf("3. Dien thoai\n");
+	int n;
+	printf("Moi nhap so luong DT n= ");
+	scanf("%d", &n);
+	int arrDungLuong[n];
+	printf("-------NHAP------\n");
+	for (int i=0; i<n; i++){
+		printf("Moi nhap Dung luong DT thu %d la: ",i);
+		scanf("%d", &arrDungLuong[i]);
+	}
+	printf("------XUAT-------\n");
+	for (int i=0; i<n; i++){
+		printf("Dung luong DT thu %d la %d\n", i, arrDungLuong[i]);
+	}
+	//kiem tra su ton tai cua 1 gia tri trong mang
+	int x;
+	printf("Moi nhap gia tri can tim x= ");
+	scanf("%d", &x);
+	int count = 0; //bien dem
+	for (int i=0; i<n; i++){
+		if (x == arrDungLuong[i]){
+			count++;//tim thay thi tang count lên 1 don vi
+			printf("Tim thay gia tri %d trong mang\n", x);
+			break; //tim thay se thoat khoi vong lap
+		}
+	}
+	if(count ==0 ){
+		printf("Khong tim thay !!!!\n");
+	}
+	
 }
 //////////////////////
 void bai4(){
 	printf("4. Dong vat\n");
+	int n;
+	printf("Moi nhap so luong DV n= ");
+	scanf("%d", &n);
+	float arrCanNang[n];
+	printf("-------NHAP------\n");
+	for (int i=0; i<n; i++){
+		printf("Moi nhap can nang DV thu %d la: ",i);
+		scanf("%f", &arrCanNang[i]);
+	}
+	printf("------XUAT-------\n");
+	for (int i=0; i<n; i++){
+		printf("Can nang DV thu %d la %.2f\n", i, arrCanNang[i]);
+	}
+	float max = arrCanNang[0];
+	int viTri = 0;
+	for (int i=0; i<n; i++){
+		if (arrCanNang[i] > max){ //neu tim thay gia tri lon hon max
+			max = arrCanNang[i]; //gan lai max = phan tu do
+			viTri = i;
+		}
+	}
+	printf("Gia tri lon nhat la %.2f tai vi tri %d\n", max,viTri);
 }
 //////////////////////
 void bai5(){
